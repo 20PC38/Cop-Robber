@@ -1,0 +1,27 @@
+13
+a b
+b a
+b c
+b d
+b e
+c b
+c d
+c f
+c e
+d b
+d c
+d e
+d f
+e b
+e c
+e d
+e f
+f c
+f d
+f e
+f g
+f h
+g f
+g h
+h f
+h g
