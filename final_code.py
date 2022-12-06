@@ -2,7 +2,7 @@ from collections import defaultdict
 
 
 #function to check whether a graph is a clique(complete)
-def isClique(graph):
+def is_Clique(graph):
     v = len(graph.keys())               #no_of_vertices
     count = 0
     for x in graph:
@@ -67,11 +67,11 @@ def main():
     while 1:
         neighbourhood = neigh(graph1)
         s = strict_corners(neighbourhood)
-        if isClique(graph1):
+        if is_Clique(graph1):
             for i in graph1:
                 cr[i] = k
             break
-        elif isClique(graph1) == 0 and s == []:
+        elif is_Clique(graph1) == 0 and s == []:
             for i in graph1:
                 cr[i] = -1
             break
